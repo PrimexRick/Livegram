@@ -1,7 +1,7 @@
 import os
 from telethon import TelegramClient
 import logging
-from telegram.ext import Updater, CommandHandler, dispatcher
+from telegram import Updater, CommandHandler, Dispatcher
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
